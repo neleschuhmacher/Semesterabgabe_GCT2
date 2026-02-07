@@ -1,0 +1,223 @@
+html {background-color: #212122;
+  		font-family: 'Instrument Sans', sans-serif;
+  		color: ghostwhite;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-evenly;
+   gap: 80px;
+ }  
+
+ .Nav ul {
+  display: flex;
+  gap: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.Nav li:hover {
+  color: #C2002A;
+  cursor: pointer;
+}
+
+
+li {list-style: none;
+  	font-size: 20px;
+  	font-weight: 600;
+}
+
+.mainpic {display: flex;
+					flex-direction: column;
+					align-items: center;
+					margin-top: 40px;
+}
+
+.maintext {margin-top: 100px;
+					margin-left: 50px;
+					margin-bottom: 200px;
+					width: 1000px;
+}
+
+h2 {font-size: 20px;
+		font-weight: 600;
+		color: #C2002A;
+}
+
+p {font-size: 16px;
+		font-weight: 400;
+		line-height: 1.4;
+		margin-left: 50px;
+}
+
+.info {display: flex;
+				gap: 200px;
+				margin-left: 50px;
+				margin-bottom: 50px;
+				max-width: 1400px;
+}
+
+.info p {max-width: 700px;
+}
+
+.huu h2 {font-size: 20px;
+					font-weight: 600;
+					color:#C2002A;
+					margin-top: 70px;
+					margin-left: 50px;
+}
+
+.info img {height: 450px;
+					 object-fit: cover;
+}
+
+.filter {color:#C2002A;
+					margin-left:50px;
+}
+
+
+.sales {width: 100%;
+				max-width: 2000px;
+}
+
+.product-containers {display: flex;
+											flex-wrap: wrap;
+											justify-content: center;
+											gap: 24px;
+											margin-top: 40px;
+}
+
+.product {background-color: #6D6D6D;
+				  box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.3);
+				  padding: 10px 20px 20px;
+				  box-sizing: border-box;
+					flex: 0 1 calc(20% - 24px);
+    			max-width: 260px;
+}
+
+.product img {width: 100%;
+							height: auto;
+							display: block;
+							margin-bottom: 10px;
+}
+
+.product h2 {font-size: 25px;
+							color: ghostwhite;
+}
+
+.product p {color:#C2002A;
+						font-size: 20px;
+						font-weight: 600;
+}
+
+.space {margin-bottom: 300px;
+}
+
+.time li {list-style: none;
+  				font-size: 18px;
+  				font-weight: 400;
+					line-height: 1.6;
+}
+
+.Impressum {margin-left: 50px;
+}
+
+.M h2:hover {color: #C2002A;
+					  	cursor: pointer;
+}
+
+.detail {	margin-left: 50px;
+					max-width: 2000px;
+					justify-content: center;
+}
+
+.detail p {max-width: 1000px;
+}
+
+.detail img {width: 500px;
+							height: auto;
+}
+
+a {color: ghostwhite;
+	 text-decoration: none;
+}
+
+a:hover {color: #C2002A;
+					cursor: pointer;
+}
+
+.team {display: flex;
+				flex-direction: row;
+				justify-content: center;
+				gap: 40px;
+}
+
+.bild {position: relative;
+				overflow: hidden;
+}
+
+
+.bild img {height: 450px;
+						width: auto;
+						display: block;
+						transition: filter 0.3s ease;
+}
+
+.bild2 img {height: 250px;
+							width: auto;
+							display: block;
+							transition: filter 0.3s ease;
+}
+
+
+.caption {position: absolute;
+					bottom: 0;
+					left: 20;
+					width: 320px;
+					background: rgba(0, 0, 0, 0.7);
+					color: #C2002A;
+					font-family: arial;
+					font-size: 16px;
+					padding: 10px;
+					text-align: center;
+					opacity: 0;
+					transition: opacity 0.3s ease;
+}
+
+.caption2 {position: absolute;
+						bottom: 0;
+						left: 0;
+						width: 100px;
+						background: rgba(0, 0, 0, 0.7);
+						color: #C2002A;
+						font-family: arial;
+						font-size: 16px;
+						padding: 10px;
+						text-align: center;
+						opacity: 0;
+						transition: opacity 0.3s ease;
+}
+
+
+.bild:hover .caption {opacity: 1;
+}
+
+.bild:hover img {filter: brightness(70%);
+}
+
+.bild2:hover .caption {opacity: 1;
+}
+
+.bild2:hover img {filter: brightness(70%);
+}
+
+
+
+
+
+
+
+
+
